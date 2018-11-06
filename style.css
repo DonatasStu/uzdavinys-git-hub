@@ -77,4 +77,3 @@ height: 1500px;
 	@keyframes colorrc-translate{
 	0% {transform: translate(0px,0px);}
    100% {transform: translate(40px,-100px);}
-}
