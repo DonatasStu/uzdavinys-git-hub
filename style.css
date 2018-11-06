@@ -1,0 +1,80 @@
+.container{
+	position: relative;
+background-color: #808080;
+width:1500px;
+height: 1500px;
+}
+.box{
+	font-size: 40px;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 270px; 
+	border: 5px solid white;
+	 position: absolute;
+	 top:35%;
+	 left:35%;
+	background-color:rgba(255, 0, 0, 10);
+	width:20%;
+	height:20%;
+	border-radius: 100%;
+	animation-name: colorra-translate;
+	animation-delay: 3s;
+	animation-duration: 4s;
+	animation-fill-mode:forwards;
+	}
+	@keyframes colorra-translate{
+	0% {transform: translate(0px,0px);}
+   100% {transform: translate(150px,70px);}
+}
+
+.box2{
+	font-size: 40px;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 270px; 
+	border: 5px solid white;
+	position: absolute;
+	mix-blend-mode: screen;
+	left: 35%;
+	top: 35%;
+	background-color:rgba(0, 69, 252, 50);
+	width:20%;
+	height:20%;
+	border-radius: 100%;
+    
+  animation-play-state: running;   
+	animation-name: colorrb-translate;
+	animation-delay: 3s;
+	animation-duration: 4s;
+	animation-fill-mode:forwards;
+
+	}
+	@keyframes colorrb-translate{
+	0% {transform: translate(0px,0px,0px);}
+   100% {transform: translate(-80px,70px);}
+}
+
+.box3{
+	font-size: 40px;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 270px; 
+	border: 5px solid white;
+	position: absolute;
+	top:  35%;
+	left: 35%;
+	mix-blend-mode: screen;
+	background-color:rgba(42, 252, 0, 50);
+	width:20%;
+	height:20%;
+	border-radius: 100%;
+	animation-name: colorrc-translate;
+	animation-delay: 3s;
+	animation-duration: 4s;
+	animation-fill-mode:forwards;
+
+	}
+	@keyframes colorrc-translate{
+	0% {transform: translate(0px,0px);}
+   100% {transform: translate(40px,-100px);}
+}
